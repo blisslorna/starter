@@ -1,0 +1,181 @@
+body{
+    overflow-x: hidden;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px #d4d4d4 ;
+    
+}
+.nav .nav-links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    padding: 0px;
+    width: 50%;
+    justify-content: space-between;
+}
+.nav .nav-links .nav-link a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+.nav .navbar-brand{
+    display: flex;
+    justify-content: center;
+    width: 10%;
+
+}
+.nav .navbar-brand img{
+    width: 80px;
+    height: 60px;
+    image-orientation: initial;
+    image-rendering: auto;
+}
+.nav .navbar-action{
+    width: 10%;
+}
+.nav .navbar-action button{
+    padding: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: grey;
+    justify-content: center;
+    display: flex;
+    margin: 0px;
+    width: 80%;
+    border: none;
+}
+.hero .hero-image img{
+   width: 500px;
+   height:350px;
+}
+.hero{
+    width: 70%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.hero .hero-details .bar-action button{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 8px;
+   justify-content: center;
+   display: flex;
+   background-color: #d4d4d4;
+   margin: 0px;
+   width: 100%;
+   border: none;
+   text-transform: uppercase;
+
+}
+.hero .hero-details{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.base{
+    background-color:rgb(246, 246, 237);
+    margin: 0px auto;
+    padding: 10px;
+    width:100%;
+}
+.board{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.board .board-inner .board-top{
+    font-size: medium;
+    
+}
+.board .board-inner .board-bottom{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.board .board-inner .board-bottom .board-bottom-left{
+    font-size: medium;
+    padding-top: 20px ;
+    text-align: left;
+}
+.board .board-inner .board-bottom .board-bottom-right{
+    justify-content: right;
+    font-size: medium;
+}
+.board .board-inner .board-bottom .board-bottom-right img{
+    width: 450px;
+    height: 350px;
+}
+.punch{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 8px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:inset;
+}
+.punch .punch-inner .punch-inner-top{
+    font-size: medium;
+}
+.punch .punch-inner .punch-inner-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    background-color: rgb(249, 249, 246);
+}
+.punch .punch-inner .punch-inner-bottom .punch-inner-bottom-left{
+    font-size: medium;
+}
+.punch .punch-inner .punch-inner-bottom .punch-inner-bottom-right iframe{
+    width: 450px;
+    height: 350px;
+}
+.view{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.table-data{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: 0px auto;
+    padding: 8px 0px;
+    /* display: flex;
+    justify-content: space-between; */
+    /* box-shadow:inset; */
+}
+
+.table-data .table-data-inner{
+    width: 100%;
+}
+
+.table-data .table-data-inner .table-holder table{
+    width: 900px;
+    text-align: center;
+}
+
+table, th, td {
+    padding: 7px;
+}
+tr:nth-child(even), th{
+    background-color: #d4d4d4;
+}
